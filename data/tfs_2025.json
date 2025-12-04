@@ -1,0 +1,11 @@
+{
+  "people": [
+    {
+      "name": "Full Name",
+      "github": "https://github.com/username",
+      "linkedin": "https://www.linkedin.com/in/username/",
+      "photo": "images/filename.jpg",
+      "description": "Short bio or description about the person."
+    }
+  ]
+}
