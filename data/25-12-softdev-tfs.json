@@ -11,21 +11,21 @@
         },
         {
             "name": "Jeremy",
-            "role": "",
+            "role": "Back-end/ Data Engineer",
             "github": "https://github.com/Fiarzen",
             "linkedin": "https://linkedin.com/in/jeremy-lam-b82b9b104/",
             "photo": "/assets/profile_photos/jeremy.jpg",
-            "description": "",
-            "portfolio_link": ""
+            "description": "Data and software engineer. Experienced with Python, Javascript, SQL, React, Node and building cloud infrastructure with terraform (AWS/Google Cloud) ",
+            "portfolio_link": "https://jeremylam.netlify.app "
         },
         {
             "name": "Louise",
-            "role": "",
+            "role": "Frontend Developer",
             "github": "https://github.com/louiseka",
             "linkedin": "https://www.linkedin.com/in/louiseka/",
             "photo": "/assets/profile_photos/louise.jpg",
-            "description": "",
-            "portfolio_link": ""
+            "description": "I’m a frontend developer specialising in React, TypeScript, and JavaScript. I combine strong coding skills with a focus on digital accessibility, creating websites and applications that are both user-friendly and mission-focused. ",
+            "portfolio_link": "https://louise.codes/"
         },
         {
             "name": "Matt H",
@@ -33,7 +33,7 @@
             "github": "https://github.com/waker-btn",
             "linkedin": "https://linkedin.com/in/matthemstock",
             "photo": "/assets/profile_photos/matt_h.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "Backend-focused developer with a SysAdmin background and experience using TypeScript, Node.js, Express, React, APIs, and databases. I enjoy problem-solving, debugging, and building reliable backend services.",
             "portfolio_link": ""
         },
         {
@@ -74,11 +74,11 @@
         },
         {
             "name": "Tymur",
-            "role": "",
+            "role": "Full-Stack Software Developer",
             "github": "https://github.com/timtim40a",
             "linkedin": "https://linkedin.com/in/tymur-soroka/",
             "photo": "/assets/profile_photos/tymur.jpg",
-            "description": "",
+            "description": "Hi! I am a Software Developer using React/Typescript, Redux, Node.js, Express, with additional experience in Python, it's data science and machine learning libraries. If you don't work with the tech I mentioned, I am always wanting to learn more, adapt and be Agile!",
             "portfolio_link": ""
         },
         {
@@ -92,11 +92,11 @@
         },
         {
             "name": "Yash",
-            "role": "",
+            "role": "Software Developer",
             "github": "https://github.com/YashMagane",
             "linkedin": "https://www.linkedin.com/in/yashmagane/",
             "photo": "/assets/profile_photos/yash.jpg",
-            "description": "",
+            "description": "I'm a software developer with a strong passion for backend engineering. I love building reliable APIs, working with databases, and designing scalable systems, always aiming for clean architecture and efficient solutions",
             "portfolio_link": ""
         },
         {
