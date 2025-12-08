@@ -7,7 +7,7 @@
     margin: 1.5em 0 0;
 }
 
-/* Card Structure */
+/* Personal Card Structure */
 
 .card {
     border-radius: var(--border-radius-sm);
@@ -29,6 +29,31 @@
 .card__links {
     display: flex;
     flex-direction: column;
+}
+
+/* Bootcamp Card Structure */
+
+.card__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1em;
+}
+
+.card__hero-image {
+    width: 100%;
+    border-radius: var(--border-radius-sm);
+}
+
+.bootcamp-card {
+    cursor: pointer;
 }
 
 /* Card Text */
