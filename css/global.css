@@ -8,6 +8,9 @@
     --color-yellow: #fdc700;
     --color-white: #fbfcf8;
     --color-grey: #e3e3e3;
+    /* Borders */
+    --border-radius-sm: 5px;
+    --border-radius-circle: 50%;
 }
 
 *,
@@ -28,5 +31,5 @@ h1,
 h2,
 h3,
 h4 {
-    padding: 0;
+    margin: 0;
 }
