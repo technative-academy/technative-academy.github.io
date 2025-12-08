@@ -22,7 +22,11 @@ async function buildAlumniList() {
         cardClone.querySelector(".card__photo").src = alumnus.photo;
         cardClone.querySelector(".card__name").textContent = alumnus.name;
         cardClone.querySelector(".card__role").textContent = alumnus.role;
-        cardClone.querySelector(".card__link").href = alumnus.portfolio;
+        cardClone.querySelector(".card__cta-link").href =
+            alumnus.portfolio_link;
+        cardClone.querySelector(".card__link--github").href = alumnus.github;
+        cardClone.querySelector(".card__link--linkedin").href =
+            alumnus.linkedin;
         cardClone.querySelector(".card__description").textContent =
             alumnus.description;
 

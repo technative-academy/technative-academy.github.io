@@ -4,7 +4,7 @@
             "name": "Dinesh",
             "role": "",
             "github": "https://github.com/dinesh",
-            "linkedin": "linkedin.com/in/itprodinesh88/",
+            "linkedin": "https://linkedin.com/in/itprodinesh88/",
             "photo": "/assets/profile_photos/dinesh.jpg",
             "description": "",
             "portfolio_link": ""
@@ -12,8 +12,8 @@
         {
             "name": "Jeremy",
             "role": "",
-            "github": "github.com/Fiarzen",
-            "linkedin": "linkedin.com/in/jeremy-lam-b82b9b104/",
+            "github": "https://github.com/Fiarzen",
+            "linkedin": "https://linkedin.com/in/jeremy-lam-b82b9b104/",
             "photo": "/assets/profile_photos/jeremy.jpg",
             "description": "",
             "portfolio_link": ""
@@ -30,17 +30,17 @@
         {
             "name": "Matt H",
             "role": "Software Developer",
-            "github": "github.com/waker-btn",
-            "linkedin": "linkedin.com/in/matthemstock",
+            "github": "https://github.com/waker-btn",
+            "linkedin": "https://linkedin.com/in/matthemstock",
             "photo": "/assets/profile_photos/matt_h.jpg",
-            "description": "aaa aaaa aaa aaaa aa aaaa aaaa aaaaaaaa aaaaaa aaaaaa aaa aaaa aaaaa a aaaa aaaaa aaa aaaaa aa aaaaa aaa aa ",
-            "portfolio_link": "https://matthemstock.co.uk"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "portfolio_link": ""
         },
         {
             "name": "Matt N",
             "role": "",
-            "github": "github.com/MattNightingale",
-            "linkedin": "linkedin.com/in/matt-nightingale",
+            "github": "https://github.com/MattNightingale",
+            "linkedin": "https://linkedin.com/in/matt-nightingale",
             "photo": "/assets/profile_photos/matt_n.jpg",
             "description": "",
             "portfolio_link": ""
@@ -58,7 +58,7 @@
             "name": "Ravind",
             "role": "",
             "github": "https://github.com/Ravindgowda",
-            "linkedin": "www.linkedin.com/in/ravind-gowda-03232bb6",
+            "linkedin": "https://linkedin.com/in/ravind-gowda-03232bb6",
             "photo": "/assets/profile_photos/ravind.jpg",
             "description": "",
             "portfolio_link": ""
@@ -75,8 +75,8 @@
         {
             "name": "Tymur",
             "role": "",
-            "github": "github.com/timtim40a",
-            "linkedin": "linkedin.com/in/tymur-soroka/",
+            "github": "https://github.com/timtim40a",
+            "linkedin": "https://linkedin.com/in/tymur-soroka/",
             "photo": "/assets/profile_photos/tymur.jpg",
             "description": "",
             "portfolio_link": ""
@@ -84,8 +84,8 @@
         {
             "name": "Wahaj",
             "role": "",
-            "github": "github.com/Wahaj-Arsal",
-            "linkedin": "linkedin.com/in/wahaj-arsal",
+            "github": "https://github.com/Wahaj-Arsal",
+            "linkedin": "https://linkedin.com/in/wahaj-arsal",
             "photo": "/assets/profile_photos/wahaj.jpg",
             "description": "",
             "portfolio_link": ""
@@ -102,8 +102,8 @@
         {
             "name": "Yorick",
             "role": "",
-            "github": "github.com/yodiyo",
-            "linkedin": "linkedin.com/in/theyoricktouch",
+            "github": "https://github.com/yodiyo",
+            "linkedin": "https://linkedin.com/in/theyoricktouch",
             "photo": "/assets/profile_photos/yorick.jpg",
             "description": "",
             "portfolio_link": ""
