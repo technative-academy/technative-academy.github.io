@@ -1,7 +1,2 @@
-document.querySelectorAll(".bootcamp-card").forEach((card) => {
-    const url = card.dataset.url;
-    console.log("Navigating to: " + url);
-    card.addEventListener("click", () => {
-        window.location.href = "./pages/" + url + ".html";
-    });
-});
+// Bootcamp card navigation is now handled by anchor elements in index.html
+// No JavaScript needed for navigation
