@@ -59,7 +59,18 @@
 .bootcamp-card {
     background-color: rgba(243, 250, 255, 0.67);
     box-shadow: 0 4px 8px 0 rgba(217, 217, 217, 1);
-    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.bootcamp-card:hover,
+.bootcamp-card:focus {
+    box-shadow: 0 6px 12px 0 rgba(217, 217, 217, 1);
+    transform: translateY(-2px);
+    transition:
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
 /* Card Text */
