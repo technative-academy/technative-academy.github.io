@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "footer.css";
+@import "about.css";
 
 :root {
     /* Typography */
@@ -9,6 +10,7 @@
     --color-yellow: #fdc700;
     --color-white: #fbfcf8;
     --color-grey: #e3e3e3;
+    --color-link-primary: #3482c1;
     /* Borders */
     --border-radius-sm: 5px;
     --border-radius-circle: 50%;

@@ -1,0 +1,26 @@
+.about-technative {
+    margin: 2rem auto 3rem auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.about-technative h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--color-grey);
+    padding-bottom: 0.5rem;
+}
+
+.about-technative p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.about-technative a {
+    font-weight: bold;
+    color: var(--color-link-primary);
+    text-decoration: none;
+}
