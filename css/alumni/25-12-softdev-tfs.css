@@ -33,3 +33,15 @@
     margin: 0 auto;
     border-bottom: 4px solid var(--color-yellow);
 }
+
+.card--yorick {
+    background: linear-gradient(
+        180deg,
+        rgba(50, 193, 224, 1) 0%,
+        rgba(25, 191, 98, 1) 100%
+    );
+}
+
+.card--yorick .card__description {
+    font-style: italic;
+}
