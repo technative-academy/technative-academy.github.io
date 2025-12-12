@@ -5,7 +5,7 @@
             "role": "",
             "github": "https://github.com/dinesh",
             "linkedin": "https://linkedin.com/in/itprodinesh88/",
-            "photo": "/assets/profile_photos/dinesh.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/dinesh.jpg",
             "description": "",
             "portfolio_link": ""
         },
@@ -14,7 +14,7 @@
             "role": "Back-end/ Data Engineer",
             "github": "https://github.com/Fiarzen",
             "linkedin": "https://linkedin.com/in/jeremy-lam-b82b9b104/",
-            "photo": "/assets/profile_photos/jeremy.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/jeremy.jpg",
             "description": "Data and software engineer. Experienced with Python, Javascript, SQL, React, Node and building cloud infrastructure with terraform (AWS/Google Cloud). I enjoy problem solving and building efficient, scalable systems.",
             "portfolio_link": "https://jeremylam.netlify.app "
         },
@@ -23,7 +23,7 @@
             "role": "Frontend Developer",
             "github": "https://github.com/louiseka",
             "linkedin": "https://www.linkedin.com/in/louiseka/",
-            "photo": "/assets/profile_photos/louise.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/louise.jpg",
             "description": "I’m a frontend developer specialising in React, TypeScript, and JavaScript. I combine strong coding skills with a focus on digital accessibility, creating websites and applications that are both user-friendly and mission-focused. ",
             "portfolio_link": "https://louise.codes/"
         },
@@ -32,7 +32,7 @@
             "role": "Software Developer",
             "github": "https://github.com/waker-btn",
             "linkedin": "https://linkedin.com/in/matthemstock",
-            "photo": "/assets/profile_photos/matt_h.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/matt_h.jpg",
             "description": "Backend-focused developer with a SysAdmin background and experience using TypeScript, Node.js, Express, React, APIs, and databases. I enjoy problem-solving, debugging, and building reliable backend services.",
             "portfolio_link": ""
         },
@@ -41,7 +41,7 @@
             "role": "Front-end Software Developer",
             "github": "https://github.com/MattNightingale",
             "linkedin": "https://linkedin.com/in/matt-nightingale",
-            "photo": "/assets/profile_photos/matt_n.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/matt_n.jpg",
             "description": "Currently a front-end developer focussed on React, Redux,  TypeScript and JavaScript, but with a desire to learn much more! I have a naturally analytical mind with a passion for problem solving and building clean, beautiful UI.",
             "portfolio_link": ""
         },
@@ -50,7 +50,7 @@
             "role": "",
             "github": "https://github.com/NathanHor22",
             "linkedin": "https://www.linkedin.com/in/nathan-hor-99a27a205/",
-            "photo": "/assets/profile_photos/nathan.png",
+            "photo": "/assets/2025-09-tfs/profile_photos/nathan.png",
             "description": "",
             "portfolio_link": ""
         },
@@ -59,7 +59,7 @@
             "role": "",
             "github": "https://github.com/Ravindgowda",
             "linkedin": "https://linkedin.com/in/ravind-gowda-03232bb6",
-            "photo": "/assets/profile_photos/ravind.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/ravind.jpg",
             "description": "",
             "portfolio_link": ""
         },
@@ -68,7 +68,7 @@
             "role": "Full-Stack Software Developer",
             "github": "https://github.com/tgulu",
             "linkedin": "https://www.linkedin.com/in/thabo-gulu/",
-            "photo": "/assets/profile_photos/thabo.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/thabo.jpg",
             "description": "I’m a Full-Stack Developer specialising in React, TypeScript, JavaScript, Node.js and Tailwind. I combine strong coding skills with a focus on digital accessibility, creating websites and applications that are both user-friendly and mission-focused",
             "portfolio_link": "https://websiteby.thabogulu.com/"
         },
@@ -77,7 +77,7 @@
             "role": "Full-Stack Software Developer",
             "github": "https://github.com/timtim40a",
             "linkedin": "https://linkedin.com/in/tymur-soroka/",
-            "photo": "/assets/profile_photos/tymur.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/tymur.jpg",
             "description": "Hi! I am a Software Developer using React/Typescript, Redux, Node.js, Express, with additional experience in Python, it's data science and machine learning libraries. If you don't work with the tech I mentioned, I am always wanting to learn more, adapt and be Agile!",
             "portfolio_link": ""
         },
@@ -86,7 +86,7 @@
             "role": "",
             "github": "https://github.com/Wahaj-Arsal",
             "linkedin": "https://linkedin.com/in/wahaj-arsal",
-            "photo": "/assets/profile_photos/wahaj.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/wahaj.jpg",
             "description": "",
             "portfolio_link": ""
         },
@@ -95,7 +95,7 @@
             "role": "Software Developer",
             "github": "https://github.com/YashMagane",
             "linkedin": "https://www.linkedin.com/in/yashmagane/",
-            "photo": "/assets/profile_photos/yash.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/yash.jpg",
             "description": "I'm a software developer with a strong passion for backend engineering. I love building reliable APIs, working with databases, and designing scalable systems, always aiming for clean architecture and efficient solutions",
             "portfolio_link": ""
         },
@@ -104,7 +104,7 @@
             "role": "",
             "github": "https://github.com/yodiyo",
             "linkedin": "https://linkedin.com/in/theyoricktouch",
-            "photo": "/assets/profile_photos/yorick.jpg",
+            "photo": "/assets/2025-09-tfs/profile_photos/yorick.jpg",
             "description": "",
             "portfolio_link": ""
         }
