@@ -1,0 +1,1 @@
+The index files are now to be stored in their respective bootcamp folder
