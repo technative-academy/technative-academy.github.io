@@ -3,20 +3,12 @@
         {
             "name": "",
             "role": "",
-            "github": "",
-            "linkedin": "",
-            "photo": "/assets/profile_photos/placeholder.jpg",
+            "github": "https://github.com/",
+            "linkedin": "https://linkedin.com/in/",
+            "photo": "/assets/2025-09-tfs/profile_photos/placeholder.jpg",
             "description": "",
-            "portfolio_link": ""
-        },
-        {
-            "name": "",
-            "role": "",
-            "github": "",
-            "linkedin": "",
-            "photo": "/assets/profile_photos/placeholder.jpg",
-            "description": "",
-            "portfolio_link": ""
+            "portfolio_link": "",
+            "technologies": ["Python", "JavaScript", "React", "SQL", "Node"]
         }
     ]
 }
