@@ -154,7 +154,9 @@
 .bootcamp-card:focus {
     box-shadow: 0 6px 12px 0 rgba(217, 217, 217, 1);
     transform: translateY(-2px);
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition:
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
 .card__hero {
