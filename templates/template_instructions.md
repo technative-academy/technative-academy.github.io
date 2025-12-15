@@ -1,6 +1,6 @@
 # Alumni Page Template Instructions
 
-This guide explains how to use the templates in this folder to create a new alumni page for a bootcamp cohort.
+This guide explains how to use the templates in this folder to create a new alumni page for a bootcamp cohort. The bootcamp's alumni page will use JSON data to generate cards for alumni.
 
 ## Files in this folder
 
@@ -63,7 +63,7 @@ Create a new folder for your bootcamp cohort:
 
 Example: `/bootcamps/software-development-foundations/2025-10/`
 
-### 2. Copy and customize the HTML file
+### 3. Copy and customize the HTML file
 
 1. Copy `template-alumni-page.html` to your bootcamp folder
 2. Rename it to `index.html`
