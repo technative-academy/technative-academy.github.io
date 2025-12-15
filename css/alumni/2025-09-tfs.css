@@ -29,15 +29,28 @@ For updating colour of tech/skills
 
 /* Matt H Card styling */
 .card--matt-h {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border: 2px solid #764ba2;
+    background: linear-gradient(135deg, #2a3949 0%, #183d5c 100%);
+
+    .card__link-icon,
+    .card__icon {
+        fill: var(--color-white);
+    }
+
+    .card__name,
+    .card__role,
+    .card__link,
+    .card__description {
+        color: var(--color-white);
+    }
 }
 
-.card--matt-h .card__name,
-.card--matt-h .card__role {
-    color: #ffffff;
-}
+.tech--matt-h {
+    background-color: #779dcf;
+    color: var(--color-black);
+    cursor: default;
 
-.card--matt-h .card__description {
-    color: #f0f0f0;
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(100, 181, 246, 0.4);
+    }
 }
