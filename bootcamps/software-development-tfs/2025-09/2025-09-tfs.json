@@ -8,7 +8,9 @@
             "photo": "/assets/2025-09-tfs/profile_photos/dinesh.jpg",
             "description": "",
             "portfolio_link": "",
-            "technologies": [""]
+            "technologies": [
+                ""
+            ]
         },
         {
             "name": "Jeremy",
@@ -18,7 +20,13 @@
             "photo": "/assets/2025-09-tfs/profile_photos/jeremy.jpg",
             "description": "Data and software engineer. Experienced with Python, Javascript, SQL, React, Node and building cloud infrastructure with terraform (AWS/Google Cloud). I enjoy problem solving and building efficient, scalable systems.",
             "portfolio_link": "https://jeremylam.netlify.app",
-            "technologies": ["Python", "JavaScript", "React", "SQL", "Node"]
+            "technologies": [
+                "Python",
+                "JavaScript",
+                "React",
+                "SQL",
+                "Node"
+            ]
         },
         {
             "name": "Louise",
@@ -28,7 +36,11 @@
             "photo": "/assets/2025-09-tfs/profile_photos/louise.jpg",
             "description": "I’m a frontend developer specialising in React, TypeScript, and JavaScript. I combine strong coding skills with a focus on digital accessibility, creating websites and applications that are both user-friendly and mission-focused. ",
             "portfolio_link": "https://louise.codes/",
-            "technologies": ["TypeScript", "JavaScript", "React"]
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "React"
+            ]
         },
         {
             "name": "Matt H",
@@ -38,7 +50,12 @@
             "photo": "/assets/2025-09-tfs/profile_photos/matt_h.jpg",
             "description": "Backend-focused developer with a SysAdmin background and experience using TypeScript, Node.js, Express, React, APIs, and databases. I enjoy problem-solving, debugging, and building reliable backend services.",
             "portfolio_link": "",
-            "technologies": ["TypeScript", "Node.js", "React", "Express"]
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "React",
+                "Express"
+            ]
         },
         {
             "name": "Matt N",
@@ -48,7 +65,12 @@
             "photo": "/assets/2025-09-tfs/profile_photos/matt_n.jpg",
             "description": "Currently a front-end developer focussed on React, Redux,  TypeScript and JavaScript, but with a desire to learn much more! I have a naturally analytical mind with a passion for problem solving and building clean, beautiful UI.",
             "portfolio_link": "",
-            "technologies": ["React", "JavaScript", "Redux", "TypeScript"]
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Redux",
+                "TypeScript"
+            ]
         },
         {
             "name": "Nathan",
@@ -58,7 +80,9 @@
             "photo": "/assets/2025-09-tfs/profile_photos/nathan.png",
             "description": "",
             "portfolio_link": "",
-            "technologies": [""]
+            "technologies": [
+                ""
+            ]
         },
         {
             "name": "Ravind",
@@ -68,7 +92,9 @@
             "photo": "/assets/2025-09-tfs/profile_photos/ravind.jpg",
             "description": "",
             "portfolio_link": "",
-            "technologies": [""]
+            "technologies": [
+                ""
+            ]
         },
         {
             "name": "Thabo",
@@ -110,7 +136,9 @@
             "photo": "/assets/2025-09-tfs/profile_photos/wahaj.jpg",
             "description": "",
             "portfolio_link": "",
-            "technologies": [""]
+            "technologies": [
+                ""
+            ]
         },
         {
             "name": "Yash",
@@ -120,17 +148,27 @@
             "photo": "/assets/2025-09-tfs/profile_photos/yash.jpg",
             "description": "I'm a software developer with a strong passion for backend engineering. I love building reliable APIs, working with databases, and designing scalable systems, always aiming for clean architecture and efficient solutions",
             "portfolio_link": "",
-            "technologies": [""]
+            "technologies": [
+                ""
+            ]
         },
         {
             "name": "Yorick",
-            "role": "",
+            "role": "Full-Stack Developer",
             "github": "https://github.com/yodiyo",
             "linkedin": "https://linkedin.com/in/theyoricktouch",
-            "photo": "/assets/2025-09-tfs/profile_photos/yorick.jpg",
-            "description": "",
-            "portfolio_link": "",
-            "technologies": [""]
+            "photo": "/assets/profile_photos/yorick.jpg",
+            "description": "A full-stack developer leaning towards the front-end. Along with custom WordPress expertise, I'm happy working with JavaScript, CSS/SASS, PHP, React, Node, MySQL, & more. I'm a lifelong learner and problem-solver who loves building beautiful, functional, user-friendly websites and applications, with a focus on scalability, optimisation, and accessibility.",
+            "portfolio_link": "https://theyoricktouch.com",
+            "technologies": [
+                "React",
+                "JavaScript/TypeScript",
+                "PHP",
+                "Node.js",
+                "TypeScript",
+                "Express",
+                "CSS/SASS"
+            ]
         }
     ]
 }
