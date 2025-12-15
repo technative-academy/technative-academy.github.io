@@ -4,9 +4,9 @@ This guide explains how to use the templates in this folder to create a new alum
 
 ## Files in this folder
 
--   `template-alumni-page.html` - The HTML structure for your alumni page
--   `template-alumni.css` - Custom CSS file for bootcamp-specific styling
--   `template-json-file.json` - JSON data file containing alumni information
+- `template-alumni-page.html` - The HTML structure for your alumni page
+- `template-alumni.css` - Custom CSS file for bootcamp-specific styling
+- `template-json-file.json` - JSON data file containing alumni information
 
 ## Step-by-Step Instructions
 
@@ -41,17 +41,17 @@ Before creating your alumni page, add a card for your bootcamp to the main websi
 
 **Replace the following:**
 
--   `[bootcamp-name]` - e.g., `software-development-foundations`
--   `[YYYY-MM]` - e.g., `2025-10`
--   `[YYYY-MM-bootcamp]` - e.g., `2025-10-foundation`
--   `[photo-name].jpg` - Name of your hero image file
--   `[Bootcamp Name]` - e.g., "Software Development - Foundations"
--   `[Month Year]` - e.g., "October 2025"
--   `[Brief description...]` - A short paragraph describing the bootcamp
+- `[bootcamp-name]` - e.g., `software-development-foundations`
+- `[YYYY-MM]` - e.g., `2025-10`
+- `[YYYY-MM-bootcamp]` - e.g., `2025-10-foundation`
+- `[photo-name].jpg` - Name of your hero image file
+- `[Bootcamp Name]` - e.g., "Software Development - Foundations"
+- `[Month Year]` - e.g., "October 2025"
+- `[Brief description...]` - A short paragraph describing the bootcamp
 
 **Add the hero image:**
 
--   Place a hero/cover image for your bootcamp in `/assets/[YYYY-MM-bootcamp]/`
+- Place a hero/cover image for your bootcamp in `/assets/[YYYY-MM-bootcamp]/`
 
 ### 2. Create the folder structure
 
@@ -71,16 +71,16 @@ Example: `/bootcamps/software-development-foundations/2025-10/`
 
 **In the `<head>` section:**
 
--   Change the `<title>` to your bootcamp name (e.g., "Software Development - Foundations")
--   Add your custom CSS file link (see step 3)
+- Change the `<title>` to your bootcamp name (e.g., "Software Development - Foundations")
+- Add your custom CSS file link (see step 3)
 
 **In the `<body>` section:**
 
--   Update the `<h1>` with your bootcamp name
--   Replace the bootcamp description paragraph with your cohort's bootcamp description
--   Change the alumni list title (e.g., "Meet the Alumni of October 2025")
--   Update the `data-json-file` attribute to point to your JSON file (e.g., `./2025-10-foundations.json`)
--   Add the group photo in the "Connect with us" section if available, putting the photo in /assets/YYYY-MM-bootcamp/
+- Update the `<h1>` with your bootcamp name
+- Replace the bootcamp description paragraph with your cohort's bootcamp description
+- Change the alumni list title (e.g., "Meet the Alumni of October 2025")
+- Update the `data-json-file` attribute to point to your JSON file (e.g., `./2025-10-foundations.json`)
+- Add the group photo in the "Connect with us" section if available, putting the photo in /assets/YYYY-MM-bootcamp/
 
 ### 4. Create the CSS file
 
@@ -121,10 +121,10 @@ Example: `/bootcamps/software-development-foundations/2025-10/`
 
 ## Naming Conventions
 
--   **Folders**: Use lowercase with hyphens (e.g., `software-development-tfs`)
--   **Dates**: Use YYYY-MM format (e.g., `2025-10`)
--   **CSS files**: Format as `YYYY-MM-bootcamp-branch.css` (e.g., `2025-09-tfs.css`)
--   **JSON files**: Format as `YYYY-MM-bootcamp-branch.json` (e.g., `2025-09-tfs.json`)
+- **Folders**: Use lowercase with hyphens (e.g., `software-development-tfs`)
+- **Dates**: Use YYYY-MM format (e.g., `2025-10`)
+- **CSS files**: Format as `YYYY-MM-bootcamp-branch.css` (e.g., `2025-09-tfs.css`)
+- **JSON files**: Format as `YYYY-MM-bootcamp-branch.json` (e.g., `2025-09-tfs.json`)
 
 ## Example Structure
 
