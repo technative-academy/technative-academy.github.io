@@ -5,16 +5,15 @@ HEAD:
     - Change the title to the bootcamp name
     - Change the css link to bootcamps own custom css file, to be place in /css/alumni/YEAR-MO-BOOTCAMP_BRANCH.css
 BODY:
-    HEADER:
+    MAIN:
         - Change the title of their bootcamp
         - Change the description of their bootcamp
-    MAIN:
         - Change Alumni list title to their bootcamp date
         - Change the data-json-file in alumni-list__cards to their own json file 
         - Add alumni photo src in connect__image if available
 -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -28,18 +27,22 @@ BODY:
     </head>
     <body>
         <header>
-            <a href="../../../index.html">
-                <img
-                    class="logo"
-                    src="../../../assets/tech-native-logo.png"
-                    alt="Technative Logo"
-                />
-            </a>
-            <nav></nav>
-            <h1>BOOTCAMP - BRANCH OF BOOTCAMP IF APPLICABLE</h1>
-            <p>Alumni</p>
+            <div class="header__bar">
+                <a href="../../../index.html">
+                    <img
+                        class="logo"
+                        src="../../../assets/tech-native-logo.png"
+                        alt="Technative Logo"
+                    />
+                </a>
+                <nav class="nav">
+                    <a class="nav__link" href="../../../index.html">Home</a>
+                </nav>
+            </div>
         </header>
         <main>
+            <h1 class="bootcamp__title">BOOTCAMP TITLE</h1>
+            <h2 class="bootcamp__subtitle">- BOOTCAMP BRANCH Alumni</h2>
             <section class="bootcamp-description">
                 <p>BOOTCAMP DESCRIPTION GOES HERE</p>
             </section>
