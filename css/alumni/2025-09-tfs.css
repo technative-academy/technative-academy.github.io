@@ -55,6 +55,22 @@ For updating colour of tech/skills
     }
 }
 
+/* Tymur Card styling */
+.card--tymur {
+    background: #ef7829;
+    /*background: var(--color-yellow);*/
+    /*background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);*/
+    border-style: dashed;
+    border-width: 8px;
+    border-color: #222034;
+    color: #222034;
+}
+
+.tech--tymur {
+    background-color: #222034;
+    color: var(--color-white);
+}
+
 /* Yorick Card styling */
 .card--yorick {
     background: linear-gradient(
