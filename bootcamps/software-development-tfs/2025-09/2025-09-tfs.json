@@ -32,13 +32,21 @@
         },
         {
             "name": "Matt H",
-            "role": "Software Developer",
+            "role": "Backend Software Developer",
             "github": "https://github.com/waker-btn",
             "linkedin": "https://linkedin.com/in/matthemstock",
             "photo": "/assets/2025-09-tfs/profile_photos/matt_h.jpg",
             "description": "Backend-focused developer with a SysAdmin background and experience using TypeScript, Node.js, Express, React, APIs, and databases. I enjoy problem-solving, debugging, and building reliable backend services.",
-            "portfolio_link": "",
-            "technologies": ["TypeScript", "Node.js", "React", "Express"]
+            "portfolio_link": "https://matthemstock.co.uk/",
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "React",
+                "Express",
+                "SQL",
+                "Jest",
+                "Zod"
+            ]
         },
         {
             "name": "Matt N",
