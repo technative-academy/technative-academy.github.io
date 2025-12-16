@@ -8,9 +8,7 @@
             "photo": "/assets/2025-09-tfs/profile_photos/dinesh.jpg",
             "description": "",
             "portfolio_link": "",
-            "technologies": [
-                ""
-            ]
+            "technologies": [""]
         },
         {
             "name": "Jeremy",
@@ -20,27 +18,17 @@
             "photo": "/assets/2025-09-tfs/profile_photos/jeremy.jpg",
             "description": "Data and software engineer. Experienced with Python, Javascript, SQL, React, Node and building cloud infrastructure with terraform (AWS/Google Cloud). I enjoy problem solving and building efficient, scalable systems.",
             "portfolio_link": "https://jeremylam.netlify.app",
-            "technologies": [
-                "Python",
-                "JavaScript",
-                "React",
-                "SQL",
-                "Node"
-            ]
+            "technologies": ["Python", "JavaScript", "React", "SQL", "Node"]
         },
         {
             "name": "Louise",
-            "role": "Frontend Developer",
+            "role": "Frontend Engineer",
             "github": "https://github.com/louiseka",
             "linkedin": "https://www.linkedin.com/in/louiseka/",
             "photo": "/assets/2025-09-tfs/profile_photos/louise.jpg",
-            "description": "I’m a frontend developer specialising in React, TypeScript, and JavaScript. I combine strong coding skills with a focus on digital accessibility, creating websites and applications that are both user-friendly and mission-focused. ",
+            "description": "I’m a Frontend Engineer working with JavaScript, React, and TypeScript. I advocate for accessible, user-friendly design and clean, maintainable code for meaningful digital experiences.",
             "portfolio_link": "https://louise.codes/",
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "React"
-            ]
+            "technologies": ["TypeScript", "JavaScript", "React"]
         },
         {
             "name": "Matt H",
@@ -68,12 +56,7 @@
             "photo": "/assets/2025-09-tfs/profile_photos/matt_n.jpg",
             "description": "Currently a front-end developer focussed on React, Redux,  TypeScript and JavaScript, but with a desire to learn much more! I have a naturally analytical mind with a passion for problem solving and building clean, beautiful UI.",
             "portfolio_link": "",
-            "technologies": [
-                "React",
-                "JavaScript",
-                "Redux",
-                "TypeScript"
-            ]
+            "technologies": ["React", "JavaScript", "Redux", "TypeScript"]
         },
         {
             "name": "Nathan",
@@ -83,9 +66,7 @@
             "photo": "/assets/2025-09-tfs/profile_photos/nathan.png",
             "description": "",
             "portfolio_link": "",
-            "technologies": [
-                ""
-            ]
+            "technologies": [""]
         },
         {
             "name": "Ravind",
@@ -95,9 +76,7 @@
             "photo": "/assets/2025-09-tfs/profile_photos/ravind.jpg",
             "description": "",
             "portfolio_link": "",
-            "technologies": [
-                ""
-            ]
+            "technologies": [""]
         },
         {
             "name": "Thabo",
@@ -139,9 +118,7 @@
             "photo": "/assets/2025-09-tfs/profile_photos/wahaj.jpg",
             "description": "",
             "portfolio_link": "",
-            "technologies": [
-                ""
-            ]
+            "technologies": [""]
         },
         {
             "name": "Yash",
@@ -151,9 +128,7 @@
             "photo": "/assets/2025-09-tfs/profile_photos/yash.jpg",
             "description": "I'm a software developer with a strong passion for backend engineering. I love building reliable APIs, working with databases, and designing scalable systems, always aiming for clean architecture and efficient solutions",
             "portfolio_link": "",
-            "technologies": [
-                ""
-            ]
+            "technologies": [""]
         },
         {
             "name": "Yorick",
