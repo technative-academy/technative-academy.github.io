@@ -26,6 +26,7 @@
 
 .alumni-list__title {
     display: inline-block;
+    padding: 0.5rem;
 }
 
 .alumni-list__title::after {
@@ -159,6 +160,11 @@
         transform 0.2s ease;
 }
 
+.card__bootcamp-name {
+    font-size: 1.5rem;
+    padding: 0 0 1rem;
+}
+
 .card__hero {
     display: flex;
     justify-content: center;
@@ -178,7 +184,7 @@
 .card__body {
     display: flex;
     flex-direction: column;
-    text-align: start;
+    text-align: center;
     margin: 1rem;
 }
 
@@ -198,6 +204,7 @@
 
 .connect__description {
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .connect__image {
@@ -214,6 +221,10 @@
     .card__head {
         flex-direction: row;
         align-items: flex-start;
+    }
+
+    .card__body {
+        text-align: start;
     }
 
     .card__details {
@@ -234,14 +245,13 @@
         justify-content: flex-start;
         margin-left: 1.25rem;
     }
+    .card__bootcamp-name {
+        padding: 0 0 0 0.5rem;
+    }
 }
 
 /* 886px: Two Column, Horizontal Cards */
 @media (min-width: 886px) {
-    .bootcamp-description {
-        margin-bottom: 2.5rem;
-    }
-
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -258,11 +268,6 @@
 
     .card__links {
         align-items: flex-start;
-    }
-
-    .card__description {
-        padding-top: 1rem;
-        text-align: start;
     }
 
     .card__tech {
