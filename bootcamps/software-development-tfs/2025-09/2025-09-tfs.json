@@ -100,14 +100,15 @@
             "github": "https://github.com/timtim40a",
             "linkedin": "https://linkedin.com/in/tymur-soroka/",
             "photo": "/assets/2025-09-tfs/profile_photos/tymur.jpg",
-            "description": "Hi! I am a Software Developer using React/Typescript, Redux, Node.js, Express, with additional experience in Python, it's data science and machine learning libraries. If you don't work with the tech I mentioned, I am always wanting to learn more, adapt and be Agile!",
+            "description": "Hi! I am a Software Developer using React/Typescript, Redux, Node.js, Express, with additional experience in Python, its data science and machine learning libraries. If you don't work with the tech I mentioned, I am always wanting to learn more, adapt and be Agile!",
             "portfolio_link": "",
             "technologies": [
                 "React",
-                "Python",
-                "Node.js",
                 "TypeScript",
-                "Express"
+                "Node.js",
+                "Express",
+                "Python",
+                "PyTorch"
             ]
         },
         {
