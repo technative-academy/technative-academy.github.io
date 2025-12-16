@@ -17,7 +17,9 @@ footer a {
     color: #60a5fa; /* soft blue */
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.25s ease, text-decoration-color 0.25s ease;
+    transition:
+        color 0.25s ease,
+        text-decoration-color 0.25s ease;
 }
 
 footer a:hover {
