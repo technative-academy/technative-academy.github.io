@@ -84,6 +84,28 @@ For updating colour of tech/skills
     font-style: italic;
 }
 
+/* Jeremy card styling */
+.card--jeremy {
+    background: linear-gradient(135deg, #08ef1b, #303733);
+    color: rgb(255, 255, 255);
+}
+
+.card__link-icon,
+.card__icon {
+    fill: var(--color-white);
+}
+
+.card__name,
+.card__role,
+.card__link,
+.card__description {
+    color: var(--color-white);
+}
+
+.tech--jeremy {
+    background-color: #1a1194;
+}
+
 /* Matt Card styling */
 .card--matt-n {
     background: linear-gradient(205deg, #4998e2 0%, #9cb9ce 100%);
