@@ -12,13 +12,20 @@
         },
         {
             "name": "Jeremy",
-            "role": "Back-end/ Data Engineer",
+            "role": "Software & Data Engineer",
             "github": "https://github.com/Fiarzen",
             "linkedin": "https://linkedin.com/in/jeremy-lam-b82b9b104/",
             "photo": "/assets/2025-09-tfs/profile_photos/jeremy.jpg",
-            "description": "Data and software engineer. Experienced with Python, Javascript, SQL, React, Node and building cloud infrastructure with terraform (AWS/Google Cloud). I enjoy problem solving and building efficient, scalable systems.",
+            "description": "Software and data engineer. Experienced with Python, Java, Javascript, SQL, React, Node and building cloud infrastructure with terraform (AWS/Google Cloud). I enjoy problem solving and building efficient, scalable systems.",
             "portfolio_link": "https://jeremylam.netlify.app",
-            "technologies": ["Python", "JavaScript", "React", "SQL", "Node"]
+            "technologies": [
+                "Python",
+                "Java",
+                "JavaScript",
+                "React",
+                "SQL",
+                "Node"
+            ]
         },
         {
             "name": "Louise",
