@@ -22,6 +22,8 @@
 
 .card--ql {
     background: linear-gradient(135deg, #3c6d78 0%, #183d5c 100%);
+.card--finn {
+    background: linear-gradient(340deg, #2a7b9b 0%, #00ad48 100%);
 
     .card__link-icon,
     .card__icon {
@@ -32,10 +34,262 @@
     .card__role,
     .card__link,
     .card__description {
+        text-shadow: 2px 2px 2px #00463f;
         color: var(--color-white);
     }
 }
 
 .tech--ql {
     background-color: #fbc516;
+.tech--finn {
+    color: #ffffff;
+    border-style: solid;
+    border-color: #26df86 #005c30 #005c30 #26df86;
+    background-color: #00a364;
+}
+
+.tech--finn:hover {
+    border-color: #005c30 #26df86 #26df86 #005c30;
+    background-color: #00623d;
+}
+
+.card--finn svg {
+    filter: drop-shadow(2px 2px 2px #005c30);
+    transition: 0.2s ease-in-out;
+}
+
+.card--finn svg:hover {
+    filter: drop-shadow(5px 5px 5px #005c30);
+    transform: scale(1.5);
+}
+
+.card--amro {
+    .card__link-icon,
+    .card__icon {
+        fill: var(--color-white);
+    }
+
+    .card__name,
+    .card__role,
+    .card__link {
+        text-shadow: 3px 3px 3px #00463f;
+        color: #fff4e6;
+    }
+
+    .card__description {
+        margin: 10px;
+        color: #1c2833;
+        background: rgba(213, 216, 220, 0.75);
+    }
+
+    background-color: #16a085;
+    background-image:
+        linear-gradient(67.5deg, #16a085 10%, transparent 10%),
+        linear-gradient(157.5deg, #16a085 10%, transparent 10%),
+        linear-gradient(67.5deg, transparent 90%, #16a085 90%),
+        linear-gradient(157.5deg, transparent 90%, #16a085 90%),
+        linear-gradient(22.5deg, #16a085 10%, transparent 10%),
+        linear-gradient(112.5deg, #16a085 10%, transparent 10%),
+        linear-gradient(22.5deg, transparent 90%, #16a085 90%),
+        linear-gradient(112.5deg, transparent 90%, #16a085 90%),
+        linear-gradient(
+            22.5deg,
+            transparent 33%,
+            #d5d8dc 33%,
+            #d5d8dc 36%,
+            transparent 36%,
+            transparent 64%,
+            #d5d8dc 64%,
+            #d5d8dc 67%,
+            transparent 67%
+        ),
+        linear-gradient(
+            -22.5deg,
+            transparent 33%,
+            #d5d8dc 33%,
+            #d5d8dc 36%,
+            transparent 36%,
+            transparent 64%,
+            #d5d8dc 64%,
+            #d5d8dc 67%,
+            transparent 67%
+        ),
+        linear-gradient(
+            112.5deg,
+            transparent 33%,
+            #d5d8dc 33%,
+            #d5d8dc 36%,
+            transparent 36%,
+            transparent 64%,
+            #d5d8dc 64%,
+            #d5d8dc 67%,
+            transparent 67%
+        ),
+        linear-gradient(
+            -112.5deg,
+            transparent 33%,
+            #d5d8dc 33%,
+            #d5d8dc 36%,
+            transparent 36%,
+            transparent 64%,
+            #d5d8dc 64%,
+            #d5d8dc 67%,
+            transparent 67%
+        );
+    background-size: 250px 250px;
+    background-position:
+        -100px 150px,
+        -150px 150px,
+        -150px 100px,
+        -100px 100px,
+        -150px 100px,
+        -100px 100px,
+        -100px 150px,
+        -150px 150px,
+        0 0,
+        0 0,
+        0 0,
+        0 0;
+}
+
+.tech--amro {
+    color: #ffffff;
+    border-style: solid;
+    border-color: #26df86 #005c30 #005c30 #26df86;
+    background-color: #00a364;
+}
+
+.tech--amro:hover {
+    border-color: #000e5cff;
+    background-color: #e6dc1bff;
+    color: black;
+}
+
+.card--amro svg {
+    filter: drop-shadow(2px 2px 2px #005c30);
+    transition: 0.2s ease-in-out;
+}
+
+.card--amro svg:hover {
+    filter: drop-shadow(5px 5px 5px #005c30);
+    transform: scale(1.5);
+}
+
+.card--jo {
+    --card--jo-accent: rgb(180 151 238);
+    background: radial-gradient(
+        ellipse at left top,
+        hsl(from var(--card--jo-accent) calc(h + 10) calc(s - 10) calc(l - 3))
+            0%,
+        var(--card--jo-accent) 100%
+    );
+
+    .card__link-icon,
+    .card__icon {
+        fill: var(--color-white);
+        filter: drop-shadow(
+            1px 1px 0
+                hsla(
+                    from var(--card--jo-accent) h calc(s - 40) calc(l - 40) /
+                        60%
+                )
+        );
+    }
+
+    .card__name,
+    .card__role,
+    .card__link,
+    .card__description {
+        color: var(--color-white);
+        text-shadow: 1px 1px 0
+            hsla(from var(--card--jo-accent) h calc(s - 40) calc(l - 40) / 60%);
+    }
+}
+
+.tech--jo {
+    background-color: white;
+    color: var(--card--jo-accent);
+    text-shadow: 1px 1px 0 hsla(from var(--color-black) h s l / 10%);
+}
+
+.card--ijem {
+    background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #2b2b2b;
+    font-family:
+        "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "Courier New",
+        monospace;
+}
+
+.card--ijem::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image:
+        linear-gradient(0deg, rgba(220, 220, 220, 0.3) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(220, 220, 220, 0.3) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(200, 200, 200, 0.28) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(200, 200, 200, 0.28) 1px, transparent 1px),
+        radial-gradient(
+            circle at 30% 20%,
+            rgba(255, 255, 255, 0.35) 0%,
+            rgba(255, 255, 255, 0.05) 60%,
+            rgba(255, 255, 255, 0) 70%
+        );
+    background-size:
+        16px 16px,
+        16px 16px,
+        64px 64px,
+        64px 64px,
+        100% 100%;
+    background-blend-mode: multiply, multiply, multiply, multiply, soft-light;
+    filter: saturate(0.05) contrast(0.98);
+}
+
+.card--ijem > * {
+    position: relative;
+    z-index: 1;
+}
+
+.tech--ijem {
+    background-color: #222222;
+    color: #00ffea;
+    border: 2px solid #000000;
+}
+
+.card--abdu {
+    background: #16a5de;
+    background: radial-gradient(
+        circle,
+        rgba(22, 165, 222, 1) 0%,
+        rgba(16, 73, 163, 1) 50%,
+        rgba(143, 17, 189, 1) 100%
+    );
+
+    .card__name,
+    .card__role,
+    .card__link,
+    .card__description {
+        color: var(--color-white);
+    }
+
+    .card__link-icon,
+    .card__icon {
+        fill: var(--color-white);
+    }
+}
+
+.tech--abdu {
+    color: #a78bfa;
+    background-color: var(--color-black);
+}
+/* Kristy card styling */
+.card--kristy {
+    background: linear-gradient(135deg, #ebb1dc, #f6d3ec);
+}
+
+.tech--kristy {
+    background-color: #b1ebc0;
 }
