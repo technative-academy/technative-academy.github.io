@@ -19,3 +19,23 @@
 .tech--alex {
     background-color: #fbc516;
 }
+
+.card--ql {
+    background: linear-gradient(135deg, #3c6d78 0%, #183d5c 100%);
+
+    .card__link-icon,
+    .card__icon {
+        fill: var(--color-white);
+    }
+
+    .card__name,
+    .card__role,
+    .card__link,
+    .card__description {
+        color: var(--color-white);
+    }
+}
+
+.tech--ql {
+    background-color: #fbc516;
+}

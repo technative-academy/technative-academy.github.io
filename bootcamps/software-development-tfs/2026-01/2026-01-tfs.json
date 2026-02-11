@@ -19,6 +19,26 @@
                 "Python",
                 "PostgreSQL"
             ]
+        },
+        {
+            "name": "Qingling",
+            "role": "Software Developer",
+            "github": "https://github.com/qwu-570",
+            "linkedin": "https://www.linkedin.com/qwu-570/",
+            "photo": "/assets/2026-01-tfs/profile_photos/ql.jpg",
+            "description": "Full-stack developer with a background in data analytics, statistical modeling and machine learning. 15 years of building environmental applications and algoritm design.",
+            "portfolio_link": "https://www.linkedin.com/in/qingling-wu570/",
+            "technologies": [
+                "Python",
+                "HTML/CSS",
+                "JavaScript",
+                "C/C++",
+                "Remote Sensing",
+                "GIS",
+                "Statistical Modelling",
+                "Data Analytics",
+                "Machine Learning"
+            ]
         }
     ]
 }
