@@ -5,8 +5,8 @@
             "role": "Software Developer",
             "github": "https://github.com/alexmc2",
             "linkedin": "https://www.linkedin.com/in/alex-mcgarry/",
-            "photo": "/assets/2026-01-tfs/profile_photos/alex.jpg",
-            "description": "Full-stack developer with a background in accountancy. Experienced with Next.js, TypeScript, Node.js, and PostgreSQL. I enjoy building secure, logic-heavy applications and have a strong interest in Linux environments and system architecture.",
+            "photo": "/assets/2026-01-tfs/profile_photos/alex.webp",
+            "description": "I build full-stack web applications with JavaScript/TypeScript, React/Next.js, Node/Express, and PostgreSQL/Supabase. I’m comfortable working in Linux-based environments and often use Python and Bash for scripting and automation. I enjoy all aspects of the development process from data modelling and APIs through to UI design in Figma. With a previous background in accountancy, I am naturally analytical, detail-oriented, and enjoy problem-solving.",
             "portfolio_link": "https://www.amcgarry.co.uk/",
             "technologies": [
                 "React",
@@ -54,6 +54,60 @@
                 "PostgreSQL",
                 "SQLite"
             ]
+        },
+        {
+            "name": "Amro",
+            "role": "Software Developer",
+            "github": "https://github.com/amro-youssef",
+            "linkedin": "https://www.linkedin.com/in/amroyoussef/",
+            "photo": "/assets/2026-01-tfs/profile_photos/amro.jpg",
+            "description": "Software Engineer with a BSc in Computer Science and one year of software development experience. I have experience using React, JavaScript, TypeScript, Python and Java through academic, industry and personal projects. I'm looking for junior software development roles where I can develop my skills further and make a meaningful difference",
+            "portfolio_link": "https://github.com/amro-youssef",
+            "technologies": [
+                "JavaScript",
+                "React",
+                "Python",
+                "TypeScript",
+                "Java"
+            ]
+        },
+        {
+            "name": "Ijem",
+            "role": "Technologist & Developer",
+            "github": "https://github.com/ij888",
+            "linkedin": "https://www.linkedin.com/in/ijemofili/",
+            "photo": "/assets/2026-01-tfs/profile_photos/ijem.png",
+            "description": "I’m a hands-on technologist who builds practical systems across software, electronics, and emerging infrastructure. My work combines full-stack development, experimental hardware, renewable power concepts, and identity technology — with a focus on resilience and real-world implementation.",
+            "portfolio_link": "https://github.com/ij888",
+            "technologies": ["JavaScript", "Neo4j", "SQLite", "Node-RED"]
+        },
+        {
+            "name": "Abdu",
+            "role": "Data Analytics Engineer and Full-stack Software Developer",
+            "github": "https://github.com/HandharJunino",
+            "linkedin": "https://www.linkedin.com/in/handhwarah-abdu-muhumuza-0340321b9/",
+            "photo": "/assets/2026-01-tfs/profile_photos/abdu.jpg",
+            "description": "Data Analytics Engineer & Full-Stack Software Developer with hands-on experience in Python, R, PostgreSQL, and Flutter. I’ve led full-stack projects using tools like Flutter, Django and Firebase, and built data pipelines and warehouses with Azure Data Studio, PSQL and Python, applying ETL workflows to real-world datasets. I focus on solving problems, delivering practical solutions, and collaborating effectively in teams.",
+            "portfolio_link": "https://github.com/HandharJunino",
+            "technologies": [
+                "Python",
+                "Flutter",
+                "Dart",
+                "PostgreSQL",
+                "R",
+                "Firebase",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Kristy",
+            "role": "Front-End Software Developer",
+            "github": "https://github.com/KristalTips",
+            "linkedin": "https://linkedin.com/in/kristy-savery",
+            "photo": "/assets/2026-01-tfs/profile_photos/kristy.webp",
+            "description": "Front-end software developer with experience building projects utilising JavaScript and React. I also have recently been learning Python alongside my data annotation work with AI but come from a background working in business analysis and audit. I hold a PGCE in English Language Teaching to Adults as well as a BSc (Hons) in Psychology where my interests lie in information processing and learning in humans and AI.",
+            "portfolio_link": "https://github.com/KristalTips",
+            "technologies": ["React", "JavaScript", "Python"]
         }
     ]
 }
