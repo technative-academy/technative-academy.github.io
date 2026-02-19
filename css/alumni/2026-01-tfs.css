@@ -148,7 +148,7 @@
         0 0;
 }
 
-.card--ql {
+.card--qingling {
     background: linear-gradient(135deg, #3c6d78 0%, #183d5c 100%);
 
     .card__link-icon,
@@ -302,10 +302,72 @@
     background: linear-gradient(135deg, #ebb1dc, #f6d3ec);
 }
 
+
 .tech--kristy {
     background-color: #b1ebc0;
 }
 
-.tech--ql {
+.tech--qingling {
     background-color: #fbc516;
 }
+
+/* SANDY */
+
+.card--sandy {
+  background: linear-gradient(135deg, #8b3a2e 0%, #d96c4a 60%, #f5e9e2 100%);
+  color: #fff;
+  border-radius: 16px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card--sandy::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 18px;
+  background: linear-gradient(
+    270deg,
+    rgba(192, 132, 252, 0.55),
+    rgba(251, 207, 232, 0.55),
+    rgba(167, 243, 208, 0.45) 
+  );
+  background-size: 600% 600%;
+  z-index: -2;
+  animation: borderFlow 10s ease infinite;
+}
+
+.card--sandy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.55), transparent 50%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes borderFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.tech--sandy {
+  background: rgba(255, 255, 255, 0.55);
+  color: #4c1d95;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  box-shadow: 0 2px 8px rgba(45, 27, 61, 0.08);
+  border: 1px solid rgba(76, 29, 149, 0.12);
+}
+
+.tech--sandy:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 8px 18px rgba(76, 29, 149, 0.14);
+}
+
