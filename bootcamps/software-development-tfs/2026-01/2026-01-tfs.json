@@ -32,11 +32,13 @@
                 "PHP",
                 "TypeScript",
                 "JavaScript",
+                "Node.js",
+                "Express",
+                "PostgreSQL",
                 "MySQL",
-                "SQLite",
                 "Rust",
-                "Java",
-                "Python"
+                "Python",
+                "Java"
             ]
         },
         {
