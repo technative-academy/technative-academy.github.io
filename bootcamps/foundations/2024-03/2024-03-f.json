@@ -17,6 +17,23 @@
                 "Node",
                 "Django"
             ]
+        },
+        {
+            "name": "Chloe",
+            "role": "Web Engineer",
+            "github": "https://github.com/ChloeSAPage",
+            "linkedin": "https://www.linkedin.com/in/chloesapage",
+            "photo": "/assets/2024-03-bc/profile-photos/chloe.jpg",
+            "description": "After completing the March 2024 bootcamp, I joined Jagex as a Junior Web Engineer. The bootcamp provided me with the technical skills and confidence to succeed in my new role, and I'm excited to continue growing as a developer!",
+            "portfolio_link": "https://chloesapage.dev/",
+            "technologies": [
+                "TypeScript",
+                "React",
+                "SQL",
+                "Java",
+                "Spring Boot",
+                "Python"
+            ]
         }
     ]
 }
