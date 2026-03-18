@@ -281,3 +281,283 @@
     color: #a78bfa;
     background-color: var(--color-black);
 }
+
+.card--kostia {
+    --k-bg-1: #121924;
+    --k-bg-2: #0b1017;
+
+    --k-text: #f3f6fb;
+    --k-muted: rgba(243, 246, 251, 0.78);
+
+    --k-gold: #d9b24c;
+    --k-gold-soft: rgba(217, 178, 76, 0.42);
+    --k-gold-faint: rgba(217, 178, 76, 0.16);
+
+    --k-grid: rgba(255, 255, 255, 0.065);
+    --k-scan: rgba(255, 255, 255, 0.035);
+
+    --k-shimmer-x: -60%;
+
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    background:
+        linear-gradient(
+            120deg,
+            transparent 0%,
+            rgba(217, 178, 76, 0) 34%,
+            rgba(217, 178, 76, 0.16) 50%,
+            rgba(217, 178, 76, 0) 66%,
+            transparent 100%
+        ),
+        radial-gradient(
+                900px 300px at 18% -10%,
+                rgba(217, 178, 76, 0.12),
+                transparent 60%
+            ),
+        /* deep base */ linear-gradient(180deg, var(--k-bg-1), var(--k-bg-2));
+
+    background-size:
+        220% 100%,
+        100% 100%,
+        100% 100%;
+    background-position:
+        var(--k-shimmer-x) 0%,
+        0 0,
+        0 0;
+
+    border: 1px solid var(--k-gold-soft);
+    box-shadow:
+        0 20px 52px rgba(0, 0, 0, 0.62),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        inset 0 0 0 1px rgba(0, 0, 0, 0.35);
+
+    /* “elite” feel: slightly dominant but subtle */
+    transform: scale(1.02);
+
+    /* smooth */
+    transition:
+        transform 0.26s ease,
+        box-shadow 0.26s ease,
+        border-color 0.26s ease,
+        background-position 0.9s ease;
+
+    /* Typography tuning */
+    .card__name {
+        color: var(--k-text);
+        font-weight: 750;
+        letter-spacing: 0.35px;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.55);
+        position: relative;
+        padding-top: 8px; /* room for label */
+    }
+
+    .card__role {
+        color: var(--k-muted);
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+        font-size: 0.84em;
+        font-family:
+            ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+            "Liberation Mono", "Courier New", monospace;
+    }
+
+    .card__description,
+    .card__link {
+        color: var(--k-muted);
+    }
+
+    .card__icon,
+    .card__link-icon {
+        fill: var(--k-text);
+        transition: 0.22s ease;
+        filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.55));
+    }
+}
+
+/* ===== Top edge glow strip (premium) ===== */
+.card--kostia::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+                90deg,
+                rgba(217, 178, 76, 0) 0%,
+                rgba(217, 178, 76, 0.18) 18%,
+                rgba(217, 178, 76, 0.26) 50%,
+                rgba(217, 178, 76, 0.18) 82%,
+                rgba(217, 178, 76, 0) 100%
+            )
+            top / 100% 2px no-repeat,
+        /* vignette */
+        radial-gradient(
+                120% 120% at 50% 20%,
+                transparent 40%,
+                rgba(0, 0, 0, 0.4) 100%
+            );
+
+    opacity: 0.95;
+}
+
+/* ===== Grid + scanlines + micro noise ===== */
+.card--kostia::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+
+    background-image:
+        /* micro-grid */
+        linear-gradient(var(--k-grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--k-grid) 1px, transparent 1px),
+        /* scanlines */
+        repeating-linear-gradient(
+                0deg,
+                var(--k-scan) 0px,
+                var(--k-scan) 1px,
+                transparent 1px,
+                transparent 7px
+            ),
+        /* soft diagonal grain */
+        repeating-linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.04) 0px,
+                rgba(255, 255, 255, 0.04) 1px,
+                transparent 1px,
+                transparent 11px
+            );
+
+    background-size:
+        26px 26px,
+        26px 26px,
+        100% 100%,
+        100% 100%;
+
+    opacity: 0.62;
+    mix-blend-mode: overlay;
+}
+
+/* ===== Inner engineered frame (separate layer via children) ===== */
+.card--kostia > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Add an inner frame using a shadow on the container itself */
+.card--kostia {
+    box-shadow:
+        0 20px 52px rgba(0, 0, 0, 0.62),
+        0 0 24px rgba(217, 178, 76, 0.1),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.04),
+        inset 0 0 0 12px rgba(0, 0, 0, 0.22),
+        inset 0 0 28px rgba(0, 0, 0, 0.75);
+}
+
+/* ===== Slate ID label (edit text if you want) ===== */
+.card--kostia .card__name::before {
+    content: "KS-01 // DATA-SLATE";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    font-size: 10px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(243, 246, 251, 0.7);
+    font-family:
+        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+}
+
+/* ===== Hover: luminous, but controlled ===== */
+.card--kostia:hover {
+    --k-shimmer-x: 140%;
+
+    border-color: rgba(217, 178, 76, 0.7);
+
+    transform: translateY(-3px) scale(1.035);
+
+    box-shadow:
+        0 32px 82px rgba(0, 0, 0, 0.78),
+        0 0 34px rgba(217, 178, 76, 0.18),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+        inset 0 0 0 12px rgba(0, 0, 0, 0.18),
+        inset 0 0 30px rgba(0, 0, 0, 0.78);
+}
+
+.card--kostia:hover .card__icon,
+.card--kostia:hover .card__link-icon {
+    filter: drop-shadow(0 0 8px rgba(217, 178, 76, 0.45))
+        drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.55));
+    transform: scale(1.12);
+}
+
+/* Keyboard focus looks premium too */
+.card--kostia:focus-within {
+    border-color: rgba(217, 178, 76, 0.75);
+    box-shadow:
+        0 26px 64px rgba(0, 0, 0, 0.7),
+        0 0 0 3px rgba(217, 178, 76, 0.16),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+        inset 0 0 0 12px rgba(0, 0, 0, 0.2),
+        inset 0 0 28px rgba(0, 0, 0, 0.78);
+}
+
+/* ===== Tech chips: machined tags (brighter) ===== */
+.tech--kostia {
+    color: rgba(243, 246, 251, 0.92);
+
+    background: linear-gradient(
+        180deg,
+        rgba(21, 28, 38, 0.92),
+        rgba(12, 16, 23, 0.92)
+    );
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        0 10px 22px rgba(0, 0, 0, 0.55);
+
+    letter-spacing: 0.35px;
+    transition: 0.22s ease;
+}
+
+.tech--kostia:hover {
+    border-color: rgba(217, 178, 76, 0.7);
+
+    background: linear-gradient(
+        180deg,
+        rgba(217, 178, 76, 0.12),
+        rgba(12, 16, 23, 0.92)
+    );
+
+    box-shadow:
+        0 14px 30px rgba(0, 0, 0, 0.72),
+        0 0 16px rgba(217, 178, 76, 0.14);
+}
+
+/* ===== Reduced motion ===== */
+@media (prefers-reduced-motion: reduce) {
+    .card--kostia {
+        transition: none;
+        background-position:
+            0 0,
+            0 0,
+            0 0;
+    }
+    .card--kostia:hover {
+        transform: scale(1.02);
+    }
+    .card--kostia .card__icon,
+    .card--kostia .card__link-icon,
+    .tech--kostia {
+        transition: none;
+        transform: none;
+    }
+}
