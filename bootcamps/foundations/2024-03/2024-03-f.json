@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "name": "Seb",
+            "role": "Associate Engineer",
+            "github": "https://github.com/Sebbybobbler",
+            "linkedin": "https://www.linkedin.com/in/sebastian-davies-496386199/",
+            "photo": "/assets/2024-03-bc/profile-photos/seb.jpg",
+            "description": "Hi, I'm Seb! After completing the March 2024 Software Development Bootcamp, I joined Dabapps as an Associate Engineer. I couldn't have done this without the vital technical and soft skills I learned during the bootcamp!",
+            "portfolio_link": "",
+            "technologies": [
+                "Python",
+                "JavaScript",
+                "React",
+                "React Native",
+                "SQL",
+                "Node",
+                "Django"
+            ]
+        },
+        {
+            "name": "Chloe",
+            "role": "Web Engineer",
+            "github": "https://github.com/ChloeSAPage",
+            "linkedin": "https://www.linkedin.com/in/chloesapage",
+            "photo": "/assets/2024-03-bc/profile-photos/chloe.jpg",
+            "description": "After completing the March 2024 bootcamp, I joined Jagex as a Junior Web Engineer. The bootcamp provided me with the technical skills and confidence to succeed in my new role, and I'm excited to continue growing as a developer!",
+            "portfolio_link": "https://chloesapage.dev/",
+            "technologies": [
+                "TypeScript",
+                "React",
+                "SQL",
+                "Java",
+                "Spring Boot",
+                "Python"
+            ]
+        }
+    ]
+}

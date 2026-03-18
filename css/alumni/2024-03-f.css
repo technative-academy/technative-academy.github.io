@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Win2k";
+    src: url("/assets/fonts/ms-sans-serif-1.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.card--seb {
+    background-color: #c0c0c0;
+    background-image:
+        linear-gradient(0deg, #c0c0c0 0, #c0c0c0 1px, #c8c8c8 1px, #c8c8c8 2px),
+        linear-gradient(90deg, #c0c0c0 0, #c0c0c0 1px, #c8c8c8 1px, #c8c8c8 2px);
+    background-size: 2px 2px;
+    border: 2px solid #dfdfdf;
+    border-bottom-color: #404040;
+    border-right-color: #404040;
+    box-shadow:
+        inset 1px 1px 0 #ffffff,
+        inset -1px -1px 0 #808080;
+    font-family: "Win2k", "MS Sans Serif", "Segoe UI", sans-serif;
+    letter-spacing: 0.2px;
+    color: #000000;
+
+    .card__name,
+    .card__role,
+    .card__link,
+    .card__description {
+        color: #000000;
+        text-shadow: none;
+    }
+
+    .card__photo {
+        border-radius: 0;
+        border: 2px solid #808080;
+        border-bottom-color: #ffffff;
+        border-right-color: #ffffff;
+        box-shadow:
+            inset 1px 1px 0 #404040,
+            inset -1px -1px 0 #ffffff;
+        image-rendering: pixelated;
+    }
+
+    .card__links {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        padding-top: 5px;
+    }
+
+    .card__link {
+        background-color: #c0c0c0;
+        border: 2px solid #dfdfdf;
+        border-bottom-color: #404040;
+        border-right-color: #404040;
+        box-shadow: inset 1px 1px 0 #ffffff;
+        padding: 6px 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .card__link:focus-visible {
+        outline: 1px dotted #000000;
+        outline-offset: -4px;
+    }
+
+    .card__link:active {
+        border-top-color: #404040;
+        border-left-color: #404040;
+        border-bottom-color: #dfdfdf;
+        border-right-color: #dfdfdf;
+        box-shadow: inset -1px -1px 0 #ffffff;
+    }
+
+    .card__link-icon {
+        fill: #000000;
+    }
+    .card__head {
+        margin-top: 0;
+        background: linear-gradient(90deg, #0a246a 0%, #3a6ea5 100%);
+        color: #ffffff;
+        padding: 8px 10px;
+        border-bottom: 2px solid #808080;
+    }
+}
+
+.tech--seb {
+    background-color: #c0c0c0;
+    border: 2px solid #dfdfdf;
+    border-bottom-color: #404040;
+    border-right-color: #404040;
+    box-shadow: inset 1px 1px 0 #ffffff;
+    padding: 4px 8px;
+    font-family: "Win2k", "MS Sans Serif", "Segoe UI", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-transform: none;
+    border-radius: 0;
+}
+
+.card--chloe {
+    /* Taken from codepen: https://codepen.io/t_afif/pen/qBvXXBe */
+
+    --s: 10px; /* control the size of the wave */
+    --w: 500px; /* preferred image width */
+
+    width: round(var(--w), 4 * var(--s));
+    aspect-ratio: 1;
+    padding: var(--s);
+    border: var(--s) solid #0000;
+    box-sizing: border-box;
+    background: #fdc435;
+    border-radius: calc(3.5 * var(--s));
+    mask:
+        radial-gradient(calc(sqrt(2) * var(--s)), #000 calc(100% - 1px), #0000),
+        conic-gradient(#000 0 0) content-box,
+        radial-gradient(
+                calc(sqrt(2) * var(--s)),
+                #0000 100%,
+                #000 calc(100% + 1px)
+            )
+            var(--s) var(--s) padding-box;
+    mask-size: calc(var(--s) * 4) calc(var(--s) * 4);
+
+    .card__photo {
+        width: 150px;
+    }
+}
+
+.tech--chloe {
+    border-radius: 20px;
+}

@@ -1,33 +1,34 @@
+<!-- TO BE PLACED IN /bootcamps/YOUR BOOTCAMP NAME/START DATE(Eg 2025-10)-->
+
+<!-- Things to change:
+HEAD:
+    - Change the title to the bootcamp name
+    - Change the css link to bootcamps own custom css file, to be place in /css/alumni/YEAR-MO-BOOTCAMP_BRANCH.css
+BODY:
+    MAIN:
+        - Change the title of their bootcamp
+        - Change the description of their bootcamp
+        - Change Alumni list title to their bootcamp date
+        - Change the data-json-file in alumni-list__cards to their own json file 
+        - Add alumni photo src in connect__image if available
+-->
+
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Software Development - Tech Finishing School</title>
+        <title>Software Development Bootcamp - Foundations (March 2024)</title>
         <link
             rel="icon"
             type="image/x-icon"
             href="/assets/technative-favicon.ico"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-            property="og:title"
-            content="Alumni of TechNative Digital Software Development TFS course"
-        />
-        <meta
-            property="og:description"
-            content="Hire top talent from our employer-backed software development and tech bootcamps."
-        />
-        <meta property="og:image" content="./assets/TechNativeLogo.png" />
-        <meta
-            property="og:url"
-            content="https://technative-academy.github.io/bootcamps/software-development-tfs/2025-09/index.html"
-        />
-        <meta property="og:type" content="website" />
         <script src="../../../scripts/alumni.js" defer></script>
         <link rel="stylesheet" href="../../../css/global.css" />
         <link rel="stylesheet" href="../../../css/main.css" />
-        <link rel="stylesheet" href="../../../css/alumni/2026-01-tfs.css" />
+        <link rel="stylesheet" href="../../../css/alumni/2024-03-f.css" />
     </head>
     <body>
         <header>
@@ -43,28 +44,28 @@
                     <a class="nav__link" href="../../../index.html">Home</a>
                 </nav>
             </div>
-            <hr class="header__limiter" />
         </header>
         <main>
-            <h1 class="bootcamp__title">Software Development</h1>
-            <h2 class="bootcamp__subtitle">- Tech Finishing School Alumni</h2>
+            <h1 class="bootcamp__title">Software Development Bootcamp</h1>
+            <h2 class="bootcamp__subtitle">- Foundations Alumni</h2>
             <section class="bootcamp-description">
                 <p>
-                    This 12-week intensive Software Development Bootcamp is
-                    designed for junior developers with previous coding
-                    experience. The course focused on developing professional
-                    soft-skills whilst working on various group projects using
-                    technologies including React and Node.js.
+                    This 16-week full time intensive Software Development
+                    Bootcamp is designed for individuals with little to no
+                    previous coding experience. The course focused on developing
+                    strong tech foundations and professional soft-skills while
+                    working on various group projects using technologies
+                    including React and Node.js.
                 </p>
             </section>
             <section class="alumni-list">
                 <h2 class="alumni-list__title">
-                    Meet the Alumni of January 2026
+                    Meet the Alumni of March 2024
                 </h2>
                 <div
                     id="alumni-list__cards"
                     class="alumni-list__cards grid"
-                    data-json-file="./2026-01-tfs.json"
+                    data-json-file="./2024-03-f.json"
                 >
                     <!-- Individual card -->
                     <template id="card">
@@ -147,17 +148,18 @@
                         Employers, our alumni will be happy to hear from you -
                         let’s connect!
                     </p>
+                    <!-- ALUMNI PHOTO HERE (AS CONNECT__IMAGE) IF AVAILABLE-->
                     <img
                         class="connect__image"
-                        alt="The alumni of Tech Finishing School smiling. "
-                        src="../../../assets/2026-01-tfs//2026-01-tfs.webp"
+                        alt="The alumni of March 2024 smiling. "
+                        src="/assets/2024-03-bc/technative-smiling.JPG"
                     />
                 </div>
             </section>
         </main>
         <footer>
             <p>
-                This website was created by alumni of the 2026 Software
+                This website was created by alumni of the 2025 Software
                 Development TFS course. The GitHub repository can be found
                 <a
                     href="https://github.com/technative-academy/technative-academy.github.io"

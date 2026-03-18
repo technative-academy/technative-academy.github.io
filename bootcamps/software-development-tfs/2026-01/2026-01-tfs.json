@@ -32,11 +32,13 @@
                 "PHP",
                 "TypeScript",
                 "JavaScript",
+                "Node.js",
+                "Express",
+                "PostgreSQL",
                 "MySQL",
-                "SQLite",
                 "Rust",
-                "Java",
-                "Python"
+                "Python",
+                "Java"
             ]
         },
         {
@@ -97,6 +99,55 @@
                 "R",
                 "Firebase",
                 "JavaScript"
+            ]
+        },
+        {
+            "name": "Kristy",
+            "role": "Front-End Software Developer",
+            "github": "https://github.com/KristalTips",
+            "linkedin": "https://linkedin.com/in/kristy-savery",
+            "photo": "/assets/2026-01-tfs/profile_photos/kristy.webp",
+            "description": "Front-end software developer with experience building projects utilising JavaScript and React. I also have recently been learning Python alongside my data annotation work with AI but come from a background working in business analysis and audit. I hold a PGCE in English Language Teaching to Adults as well as a BSc (Hons) in Psychology where my interests lie in information processing and learning in humans and AI.",
+            "portfolio_link": "https://github.com/KristalTips",
+            "technologies": ["React", "JavaScript", "Python"]
+        },
+        {
+            "name": "Qingling",
+            "role": "Software Developer",
+            "github": "https://github.com/qwu-570",
+            "linkedin": "https://www.linkedin.com/qwu-570/",
+            "photo": "/assets/2026-01-tfs/profile_photos/ql.jpg",
+            "description": "Full-stack developer with a background in data analytics, statistical modeling and machine learning. 15 years of building environmental applications and algoritm design.",
+            "portfolio_link": "https://www.linkedin.com/in/qingling-wu570/",
+            "technologies": [
+                "Python",
+                "HTML/CSS",
+                "JavaScript",
+                "C/C++",
+                "Remote Sensing",
+                "GIS",
+                "Statistical Modelling",
+                "Data Analytics",
+                "Machine Learning"
+            ]
+        },
+        {
+            "name": "Sandy",
+            "role": "Software Developer",
+            "github": "https://github.com/SandyRodger",
+            "linkedin": "https://www.linkedin.com/in/sandy-rodger-742a4b141/",
+            "photo": "/assets/2026-01-tfs/profile_photos/sandy_punandi.png",
+            "description": "Full-stack dev coming from a linguisitics background. Drawing & coding all the live long day",
+            "portfolio_link": "https://sandyrodger.co.uk/",
+            "technologies": [
+                "Ruby",
+                "Rails",
+                "Sinatra",
+                "HTML/CSS",
+                "tailwind",
+                "SQL",
+                "JavaScript",
+                "React"
             ]
         },
         {
