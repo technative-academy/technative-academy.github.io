@@ -149,6 +149,24 @@
                 "JavaScript",
                 "React"
             ]
+        },
+        {
+            "name": "Kostia",
+            "role": "Full-stack Developer",
+            "github": "https://github.com/NureSemenenkoKostiantyn",
+            "linkedin": "https://www.linkedin.com/in/kostiantyn-semenenko-470a29239/",
+            "photo": "/assets/2026-01-tfs/profile_photos/kosta.jpg",
+            "description": "Full Stack Developer skilled in Java Spring Boot, NestJS, and React, with practical experience building scalable web applications and REST APIs. I enjoy writing clean, maintainable code, learning new technologies, and solving real-world problems while growing as a software engineer and contributing to impactful products.",
+            "portfolio_link": "https://github.com/NureSemenenkoKostiantyn",
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "NestJS",
+                "React.js",
+                "Angular",
+                "JavaScript",
+                "Docker"
+            ]
         }
     ]
 }
