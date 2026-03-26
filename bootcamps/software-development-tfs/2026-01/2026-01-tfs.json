@@ -167,23 +167,16 @@
                 "JavaScript",
                 "Docker"
             ]
-        }
-
-         {
+        },
+        {
             "name": "Emma",
             "role": "Software Developer",
             "github": "https://github.com/emmcostello",
             "linkedin": "https://www.linkedin.com/in/ejacostello/",
             "photo": "/assets/2026-01-tfs/profile_photos/emma.jpg",
-            "description": "I’m a front-end developer with a strong interest in human interaction and user experience. I started my career as a software tester, which gave me a solid foundation in quality and usability. I work with React, JavaScript, TypeScript and CSS to build engaging, user-focused applications.",
+            "description": "I'm a front-end developer with a strong interest in human interaction and user experience. I started my career as a software tester, which gave me a solid foundation in quality and usability. I work with React, JavaScript, TypeScript and CSS to build engaging, user-focused applications.",
             "portfolio_link": "https://github.com/emmcostello",
-            "technologies": [
-                "React",
-                "JavaScript",
-                "TypeScript",
-                "HTML/CSS"
-                
-            ]
-        },
+            "technologies": ["React", "JavaScript", "TypeScript", "HTML/CSS"]
+        }
     ]
 }
