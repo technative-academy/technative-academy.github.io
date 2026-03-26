@@ -662,3 +662,37 @@
     background: rgba(255, 255, 255, 0.75);
     box-shadow: 0 8px 18px rgba(76, 29, 149, 0.14);
 }
+
+.card--emma {
+    background: #8b16de;
+    background: radial-gradient(
+        circle,
+        rgb(22, 29, 222) 0%,
+        rgb(114, 16, 163) 50%,
+        rgba(143, 17, 189, 1) 100%
+    );
+
+    .card__name,
+    .card__role,
+    .card__link,
+    .card__description {
+        color: var(--color-white);
+    }
+
+    .card__link-icon,
+    .card__icon {
+        fill: var(--color-white);
+    }
+}
+
+.tech--emma {
+    color: #0f0f10;
+    background-color: var(--color-white);
+}
+
+.tech--emma:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 8px 18px rgba(76, 29, 149, 0.14);
+    color: var(--color-black);
+}
